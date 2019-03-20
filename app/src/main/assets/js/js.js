@@ -146,9 +146,9 @@ function getLongLat(myLocation, array, radius) {
 }
 
 $(document).ready(function () {
-    firebase.initializeApp(config.firebase);
-
-    var database = firebase.database();
+    //firebase.initializeApp(config.firebase);
+    var database = null;
+    //var database = firebase.database();
 
     var name = "";
     var phone = "";
